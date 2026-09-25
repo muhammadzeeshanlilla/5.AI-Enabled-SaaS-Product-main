@@ -24,26 +24,34 @@ A full-stack AI-powered SaaS application built with Django, Next.js, and scikit-
 
 ## 🏗️ System Architecture
 
+```text
 AI-Enabled-SaaS-Product/
-├── accounts/                  # Authentication app
-│   ├── serializers.py         # User serializers
-│   ├── views.py               # Register & profile views
-│   └── urls.py                # Auth routes
-├── backend/                   # Django project config
-│   ├── settings.py            # Project settings
-│   └── urls.py                # Main URL routing
-├── dashboard/                 # Main feature app
-│   ├── models.py              # UploadedFile, DataRow, PredictionResult
-│   ├── serializers.py         # Dashboard serializers
-│   ├── views.py               # Upload, data, prediction views
-│   ├── urls.py                # Dashboard routes
-│   └── ai_service.py         # AI prediction logic
-├── frontend/                  # Next.js application
-│   ├── app/                   # Home, auth, and protected dashboard routes
-│   ├── components/            # Auth, upload, dataset, and forecast UI
-│   └── utils/api.js           # Axios API client and JWT refresh handling
+│
+├── accounts/
+│   ├── serializers.py        # User serializers
+│   ├── views.py              # Register & profile views
+│   └── urls.py               # Authentication routes
+│
+├── backend/
+│   ├── settings.py           # Project settings
+│   └── urls.py               # Main URL routing
+│
+├── dashboard/
+│   ├── models.py             # UploadedFile, DataRow, PredictionResult
+│   ├── serializers.py        # Dashboard serializers
+│   ├── views.py              # Upload, data & prediction views
+│   ├── urls.py               # Dashboard routes
+│   └── ai_service.py         # Machine-learning prediction logic
+│
+├── frontend/
+│   ├── app/                  # Home, auth & dashboard routes
+│   ├── components/           # Auth, upload, dataset & forecast UI
+│   └── utils/
+│       └── api.js            # Axios client & JWT refresh handling
+│
 ├── manage.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
 
 ---
 
