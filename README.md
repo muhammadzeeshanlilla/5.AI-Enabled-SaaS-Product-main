@@ -7,6 +7,7 @@ A full-stack AI-powered SaaS application built with Django, Next.js, and scikit-
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-orange)
 
+![AI-Enabled SaaS Dashboard](img.png)
 ---
 
 ## 🌟 Features
